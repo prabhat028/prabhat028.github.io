@@ -9,16 +9,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Prabhat's Site</title>
+    <title>Prabhat's Site - Research</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="../css/clean-blog.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
@@ -49,16 +49,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="../index.html">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="../about.html">About</a>
                     </li>
                     <li>
-                        <a href="./posts/research.html">Research</a>
+                        <a href="./research.html">Research</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="../contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -69,69 +69,44 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
+    <header class="intro-header" style="background-image: url('../img/post-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1>Prabhat's Site</h1>
-                        <hr class="small">
-                        <span class="subheading">Personal Blog</span>
+                    <div class="post-heading">
+                        <!-- <h1>Man must explore, and this is exploration at its greatest</h1>
+                        <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
+                        --> <span class="meta">Posted by <a href="#">Prabhat Pokharel</a> on May 15, 2019</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Main Content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-preview">
-                    <a href="./posts/A_hybrid_approach_for_log_signature_generation.html">
-                        <h2 class="post-title">
-                            A Hybrid Approach for Log Signature Generation
-                        </h2>
-                        <h3 class="post-subtitle">
-                            <p align="justify">Analysis of log message is very important for the identification of a suspicious system and network activity.</p>
-                        </h3>
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h2 class="section-heading"><p align="text-center">Information Extraction Using NER from Log Messages</p></h2>
+
+                    <p align="justify">Extracting correct and useful information from log messages is useful for real-time analysis and detecting faults, anomalies and security threats. The semantics of the extracted information is needed for deeper analysis. Very little work has been done in the past for automated information extraction from log messages. Thus, in this research work, I proposed a model to extract information from the log messages. The approach was used to extract named entities by building a classifier model. The classifier model was trained using Security Event Logs from Windows OS and Exchange Mail Server Log Messages. And the results were compared with existing frequent item-set approach. In comparison, it was discovered that the proposed approach outperformed the existing approach as the numbers of categories were increased.</p>
+
+                    <p>Download</p>
+
+                    <p align="justify">
+                    <a href="Information_Extraction_Using_NER_from_Log_ Messages.pdf">Information Extraction Using NER from Log Messages</a> 
+                    </p>
+                    <a href="#">
+                        <img class="img-responsive" src="../img/post-sample-image.jpg" alt="">
                     </a>
-                    <p class="post-meta">Posted by <a href="#">Prabhat</a> on May 15, 2019</p>
+
+                    <!-- <p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p> -->
+
                 </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="./posts/A_hybrid_approach_for_log_signature_generation.html">
-                        <h2 class="post-title">
-                            Anomaly-Based – Intrusion Detection System using User Profile Generated from System Logs
-                        </h2>
-                        <h3 class="post-subtitle">
-                            <p align="justify">Intrusion Detection System (IDS) is a form of defense that aims to detect suspicious activities and attack against information systems in general.</p>
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Prabhat</a> on February 15, 2019</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="./posts/A_hybrid_approach_for_log_signature_generation.html">
-                        <h2 class="post-title">
-                            Information Extraction from Named Entity Recognition from Log Messages
-                        </h2>
-                        <h3 class="post-subtitle">
-                            <p align="justify">Extracting correct and useful information from log messages is useful for real-time analysis and detecting faults, anomalies and security threats.</p>
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Prabhat</a> on July 29, 2018</p>
-                </div>
-                <hr>
-                <!-- Pager -->
-                <ul class="pager">
-                    <li class="next">
-                        <a href="#">Older Posts &rarr;</a>
-                    </li>
-                </ul>
             </div>
         </div>
-    </div>
+    </article>
 
     <hr>
 
@@ -166,24 +141,24 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2019</p>
+                    <p class="copyright text-muted">Copyright &copy; Prabhat's Site 2019</p>
                 </div>
             </div>
         </div>
     </footer>
 
     <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+    <script src="../js/jqBootstrapValidation.js"></script>
+    <script src="../js/contact_me.js"></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/clean-blog.min.js"></script>
+    <script src="../js/clean-blog.min.js"></script>
 
 </body>
 
